@@ -45,6 +45,11 @@
 					</ul>
 					<ul>
 						<li><a href="https://www.sme.co.jp/privacy/" target="_blank">プライバシーポリシー</a></li>
+						<li>
+							<!-- OneTrust Cookies Settings Link start -->
+							<a class="ot-sdk-show-settings" href="#ot-sdk-btn">クッキーの設定</a>
+							<!-- OneTrust Cookies Settings Link end -->
+						</li>
 						<li><a
 								href="<?php echo esc_url(home_url('/terms/')); ?>">利用規約</a>
 						</li>
@@ -77,27 +82,32 @@
 		<div class="content">
 			<ul>
 				<li><a href="<?php echo esc_url(home_url('/news/')); ?>"
-						<?php if(is_page('news')||is_category()||is_singular('post')):?>
-						class="current"<?php endif; ?>>NEWS<small>ニュース</small></a>
+						<?php if (is_page('news') || is_category() || is_singular('post')) : ?>
+						class="current"
+						<?php endif; ?>>NEWS<small>ニュース</small></a>
 				</li>
 				<li><a href="<?php echo esc_url(home_url('/creator/')); ?>"
-						<?php if(is_post_type_archive('creator')||is_tax('category_creator')||is_singular('creator')):?>
-						class="current"<?php endif; ?>>CREATOR<small>クリエイター</small></a>
+						<?php if (is_post_type_archive('creator') || is_tax('category_creator') || is_singular('creator')) : ?>
+						class="current"
+						<?php endif; ?>>CREATOR<small>クリエイター</small></a>
 				</li>
-				<!-- <li><a href="<?php echo esc_url(home_url('/music/')); ?>"<?php if(is_post_type_archive('music')||is_tax('category_music')||is_singular('music')):?>
+				<!-- <li><a href="<?php echo esc_url(home_url('/music/')); ?>"<?php if (is_post_type_archive('music') || is_tax('category_music') || is_singular('music')) : ?>
 				class="current"<?php endif; ?>>MUSIC<small>ミュージック</small></a>
 				</li> -->
 				<li><a href="<?php echo esc_url(home_url('/about/')); ?>"
-						<?php if(is_page('about')):?>
-						class="current"<?php endif; ?>>ABOUT<small>アバウト</small></a>
+						<?php if (is_page('about')) : ?>
+						class="current"
+						<?php endif; ?>>ABOUT<small>アバウト</small></a>
 				</li>
 				<li><a href="<?php echo esc_url(home_url('/business/')); ?>"
-						<?php if(is_page('business')||is_tax('category_business')||is_singular('business')):?>
-						class="current"<?php endif; ?>>BUSINESS<small>ビジネス</small></a>
+						<?php if (is_page('business') || is_tax('category_business') || is_singular('business')) : ?>
+						class="current"
+						<?php endif; ?>>BUSINESS<small>ビジネス</small></a>
 				</li>
 				<li><a href="<?php echo esc_url(home_url('/contact/')); ?>"
-						<?php if(is_page(array('contact','confirm','complete'))):?>
-						class="current"<?php endif; ?>>CONTACT<small>コンタクト</small></a>
+						<?php if (is_page(array('contact', 'confirm', 'complete'))) : ?>
+						class="current"
+						<?php endif; ?>>CONTACT<small>コンタクト</small></a>
 				</li>
 			</ul>
 		</div>
