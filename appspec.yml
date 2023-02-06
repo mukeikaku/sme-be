@@ -2,5 +2,12 @@ version: 0.0
 os: linux
 files:
   - source: /themes/be
-    destination: /var/www/html/wp-content/themes
+    destination: /var/www/html/wp-content/themes/be
 file_exists_behavior: OVERWRITE
+permissions:
+  - object: /var/www/html/wp-content/themes/be
+    owner: apache
+    group: apache
+    mode: 644
+    type:
+      - directory
