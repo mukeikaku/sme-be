@@ -142,7 +142,6 @@
 		});
 	</script>
 	<?php endif; ?>
-	<!-- hogefuga -->
 </head>
 
 <body <?php body_class(); ?>>
