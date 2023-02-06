@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# misc
+.DS_Store
+
+# debug
+*.log
+
+# local env files
+.env
+
+# WordPress
+.wp
+!/.wp/wp-config.php
+!/.wp/.htaccess
+
+/plugins/hello.php
+/plugins/akismet
+/plugins/index.php
+
+/blocks/node_modules
+
+# composer
+/vendor
+
+asset-manifest.json
+assets
+
+/uploads

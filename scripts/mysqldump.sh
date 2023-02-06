@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker-compose exec db bash -c "mysqldump -uroot -p\$MYSQL_ROOT_PASSWORD -hlocalhost -B \$MYSQL_DATABASE -v --skip-comments -r /docker-entrypoint-initdb.d/wp.sql && gzip -9vf /docker-entrypoint-initdb.d/wp.sql"

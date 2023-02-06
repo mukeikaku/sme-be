@@ -1,0 +1,5 @@
+version: 0.0
+os: linux
+files:
+  - source: /themes/be
+    destination: /var/www/html/wp-content/themes
