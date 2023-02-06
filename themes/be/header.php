@@ -142,6 +142,7 @@
 		});
 	</script>
 	<?php endif; ?>
+	<!-- hoge -->
 </head>
 
 <body <?php body_class(); ?>>

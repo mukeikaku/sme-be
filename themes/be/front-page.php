@@ -3,7 +3,6 @@ get_header();
 ?>
 
 <main class="top">
-  
   <section id="mainvisual">
     <div class="wrap">
       <ul>
