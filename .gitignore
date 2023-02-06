@@ -28,3 +28,5 @@ asset-manifest.json
 assets
 
 /uploads
+
+/plugins/siteguard/really-simple-captcha/tmp
