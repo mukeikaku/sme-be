@@ -5765,3 +5765,39 @@ body.page-id-173{
     transform: translateY(-1px);
   }
 }
+
+.notFound-content {
+  padding-top: 180px;
+  padding-bottom: 70px;
+}
+
+.notFound-title {
+font-size: 56px;
+font-weight: 700;
+text-align: center;
+}
+
+.notFound-btn {
+  margin: 66px auto 0 auto;
+  width: fit-content;
+}
+
+@media screen and (max-width: 480px) {
+
+  .notFound-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .notFound-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  }
+
+  .notFound-btn {
+    margin: 33px auto 0 auto;
+    width: fit-content;
+  }
+
+}

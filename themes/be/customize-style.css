@@ -63,8 +63,7 @@ a {
 
 a:hover,
 a:focus {
-  -webkit-text-decoration-style: dashed;
-          text-decoration-style: dashed;
+  text-decoration-style: dashed;
   text-decoration: underline;
   color: #000;
   opacity: 0.7;
@@ -1820,8 +1819,7 @@ footer .copyright small {
   padding: 140px 0 80px 0;
 }
 #index-contact .text {
-  -webkit-animation: infiniteAnim 10s linear infinite;
-          animation: infiniteAnim 10s linear infinite;
+  animation: infiniteAnim 10s linear infinite;
   display: flex;
   gap: 60px;
 }
@@ -1842,15 +1840,6 @@ footer .copyright small {
   text-align: center;
 }
 
-@-webkit-keyframes infiniteAnim {
-  0% {
-    transform: translate(0, 0) rotate(10deg);
-  }
-  100% {
-    transform: translate(-740px, -131px) rotate(10deg);
-  }
-}
-
 @keyframes infiniteAnim {
   0% {
     transform: translate(0, 0) rotate(10deg);
@@ -1864,8 +1853,7 @@ footer .copyright small {
     padding: 0 0 60px;
   }
   #index-contact .text {
-    -webkit-animation: infiniteAnim 6s linear infinite;
-            animation: infiniteAnim 6s linear infinite;
+    animation: infiniteAnim 6s linear infinite;
     gap: 40px;
   }
   #index-contact .text p {
@@ -1874,14 +1862,6 @@ footer .copyright small {
   #index-contact h3 {
     font-size: 14px;
     padding: 60px 0 0;
-  }
-  @-webkit-keyframes infiniteAnim {
-    0% {
-      transform: translate(0, 0) rotate(10deg);
-    }
-    100% {
-      transform: translate(-492px, -87px) rotate(10deg);
-    }
   }
   @keyframes infiniteAnim {
     0% {
@@ -1894,20 +1874,11 @@ footer .copyright small {
 }
 @media screen and (max-width: 480px) {
   #index-contact .text {
-    -webkit-animation: infiniteAnim 5s linear infinite;
-            animation: infiniteAnim 5s linear infinite;
+    animation: infiniteAnim 5s linear infinite;
     gap: 30px;
   }
   #index-contact .text p {
     font-size: 60px;
-  }
-  @-webkit-keyframes infiniteAnim {
-    0% {
-      transform: translate(0, 0) rotate(10deg);
-    }
-    100% {
-      transform: translate(-370px, -65px) rotate(10deg);
-    }
   }
   @keyframes infiniteAnim {
     0% {
@@ -2232,70 +2203,70 @@ body.page-id-173 #index-news .share ul li {
 
 @media screen and (max-width: 980px) {
   body.page-id-119 footer,
-body.category footer,
-body.single-post footer,
-body.page-id-173 footer {
+  body.category footer,
+  body.single-post footer,
+  body.page-id-173 footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/200% 556px, url(./assets/images/rect_y03.svg) no-repeat left top/150% 100%;
   }
 }
 @media screen and (max-width: 768px) {
   body.page-id-119 main,
-body.category main,
-body.single-post main,
-body.page-id-173 main {
+  body.category main,
+  body.single-post main,
+  body.page-id-173 main {
     background: url(./assets/images/rect_y01.svg) no-repeat top left/90% auto;
   }
   body.page-id-119 footer,
-body.category footer,
-body.single-post footer,
-body.page-id-173 footer {
+  body.category footer,
+  body.single-post footer,
+  body.page-id-173 footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/300% 100%, url(./assets/images/rect_y03.svg) no-repeat left top/250% 100%;
   }
   body.page-id-119 #index-news,
-body.category #index-news,
-body.single-post #index-news,
-body.page-id-173 #index-news {
+  body.category #index-news,
+  body.single-post #index-news,
+  body.page-id-173 #index-news {
     padding: 0 0 40px;
     position: relative;
   }
   body.page-id-119 #index-news .body,
-body.category #index-news .body,
-body.single-post #index-news .body,
-body.page-id-173 #index-news .body {
+  body.category #index-news .body,
+  body.single-post #index-news .body,
+  body.page-id-173 #index-news .body {
     background: url(./assets/images/bg_contens.svg) no-repeat center top/200% 100%, url(./assets/images/rect_y02.svg) no-repeat right top/120% 383px;
     padding: 120px 0 120px;
   }
   body.page-id-119 #index-news .body.single,
-body.category #index-news .body.single,
-body.single-post #index-news .body.single,
-body.page-id-173 #index-news .body.single {
+  body.category #index-news .body.single,
+  body.single-post #index-news .body.single,
+  body.page-id-173 #index-news .body.single {
     padding: 120px 0 260px;
     background: url(./assets/images/rect-b05.svg) no-repeat right bottom/130% 240px, url(./assets/images/rect_g05.svg) no-repeat center top 20px/200% calc(100% - 20px), url(./assets/images/rect_y02.svg) no-repeat right top/150% 383px;
   }
   body.page-id-119 #index-news .btn,
-body.category #index-news .btn,
-body.single-post #index-news .btn,
-body.page-id-173 #index-news .btn {
+  body.category #index-news .btn,
+  body.single-post #index-news .btn,
+  body.page-id-173 #index-news .btn {
     margin: -20px 0 0;
     padding: 0 20px;
   }
   body.page-id-119 #index-news .btn:before,
-body.category #index-news .btn:before,
-body.single-post #index-news .btn:before,
-body.page-id-173 #index-news .btn:before {
+  body.category #index-news .btn:before,
+  body.single-post #index-news .btn:before,
+  body.page-id-173 #index-news .btn:before {
     background: url(./assets/images/rect-w01.svg) no-repeat top center/200% 120px;
   }
   body.page-id-119 #index-news .share,
-body.category #index-news .share,
-body.single-post #index-news .share,
-body.page-id-173 #index-news .share {
+  body.category #index-news .share,
+  body.single-post #index-news .share,
+  body.page-id-173 #index-news .share {
     bottom: 160px;
     right: 20px;
   }
   body.page-id-119 #index-news .share p,
-body.category #index-news .share p,
-body.single-post #index-news .share p,
-body.page-id-173 #index-news .share p {
+  body.category #index-news .share p,
+  body.single-post #index-news .share p,
+  body.page-id-173 #index-news .share p {
     font-size: 12px;
     margin: 0 0 6px;
   }
@@ -2328,9 +2299,9 @@ body.page-id-173 #index-news .share p {
 }
 @media screen and (max-width: 480px) {
   body.page-id-119 footer,
-body.category footer,
-body.single-post footer,
-body.page-id-173 footer {
+  body.category footer,
+  body.single-post footer,
+  body.page-id-173 footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/400% 100%, url(./assets/images/rect_y03.svg) no-repeat left top/350% 100%;
   }
 }
@@ -2678,52 +2649,52 @@ body.single-creator #archive-creator .btn:before {
 
 @media screen and (max-width: 1280px) {
   body.post-type-archive-creator #archive-creator .body .wrap,
-body.tax-category_creator #archive-creator .body .wrap,
-body.single-creator #archive-creator .body .wrap {
+  body.tax-category_creator #archive-creator .body .wrap,
+  body.single-creator #archive-creator .body .wrap {
     margin: 0 40px;
   }
   body.post-type-archive-creator #archive-creator .body .wrap ul,
-body.tax-category_creator #archive-creator .body .wrap ul,
-body.single-creator #archive-creator .body .wrap ul {
+  body.tax-category_creator #archive-creator .body .wrap ul,
+  body.single-creator #archive-creator .body .wrap ul {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 4%;
   }
   body.post-type-archive-creator #archive-creator .body .wrap ul li,
-body.tax-category_creator #archive-creator .body .wrap ul li,
-body.single-creator #archive-creator .body .wrap ul li {
+  body.tax-category_creator #archive-creator .body .wrap ul li,
+  body.single-creator #archive-creator .body .wrap ul li {
     width: 16.8%;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title,
-body.tax-category_creator #archive-creator .body.single .post-title,
-body.single-creator #archive-creator .body.single .post-title {
+  body.tax-category_creator #archive-creator .body.single .post-title,
+  body.single-creator #archive-creator .body.single .post-title {
     padding: 0 40px;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row,
-body.tax-category_creator #archive-creator .body.single .post-title .row,
-body.single-creator #archive-creator .body.single .post-title .row {
+  body.tax-category_creator #archive-creator .body.single .post-title .row,
+  body.single-creator #archive-creator .body.single .post-title .row {
     display: flex;
     align-items: end;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row figure,
-body.tax-category_creator #archive-creator .body.single .post-title .row figure,
-body.single-creator #archive-creator .body.single .post-title .row figure {
+  body.tax-category_creator #archive-creator .body.single .post-title .row figure,
+  body.single-creator #archive-creator .body.single .post-title .row figure {
     width: 50%;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row .text,
-body.tax-category_creator #archive-creator .body.single .post-title .row .text,
-body.single-creator #archive-creator .body.single .post-title .row .text {
+  body.tax-category_creator #archive-creator .body.single .post-title .row .text,
+  body.single-creator #archive-creator .body.single .post-title .row .text {
     width: 48%;
     padding: 40px 0 80px;
   }
   body.post-type-archive-creator #archive-creator .body.single .content,
-body.tax-category_creator #archive-creator .body.single .content,
-body.single-creator #archive-creator .body.single .content {
+  body.tax-category_creator #archive-creator .body.single .content,
+  body.single-creator #archive-creator .body.single .content {
     padding: 60px 0 0;
   }
   body.post-type-archive-creator #archive-creator .body.single .movie h2,
-body.tax-category_creator #archive-creator .body.single .movie h2,
-body.single-creator #archive-creator .body.single .movie h2 {
+  body.tax-category_creator #archive-creator .body.single .movie h2,
+  body.single-creator #archive-creator .body.single .movie h2 {
     padding: 14px 20px;
     font-size: 24px;
     color: #FFF;
@@ -2731,49 +2702,49 @@ body.single-creator #archive-creator .body.single .movie h2 {
     margin: 0 0 40px;
   }
   body.post-type-archive-creator #archive-creator .body.single .movie ul li,
-body.tax-category_creator #archive-creator .body.single .movie ul li,
-body.single-creator #archive-creator .body.single .movie ul li {
+  body.tax-category_creator #archive-creator .body.single .movie ul li,
+  body.single-creator #archive-creator .body.single .movie ul li {
     width: 273px;
   }
   body.post-type-archive-creator #archive-creator .body.single .movie ul li figure,
-body.tax-category_creator #archive-creator .body.single .movie ul li figure,
-body.single-creator #archive-creator .body.single .movie ul li figure {
+  body.tax-category_creator #archive-creator .body.single .movie ul li figure,
+  body.single-creator #archive-creator .body.single .movie ul li figure {
     aspect-ratio: 5/3;
   }
 }
 @media screen and (max-width: 980px) {
   body.post-type-archive-creator footer,
-body.tax-category_creator footer,
-body.single-creator footer {
+  body.tax-category_creator footer,
+  body.single-creator footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/200% 100%, url(./assets/images/rect-p05.svg) no-repeat left top/150% 100%;
   }
   body.post-type-archive-creator #archive-creator .body .wrap ul,
-body.tax-category_creator #archive-creator .body .wrap ul,
-body.single-creator #archive-creator .body .wrap ul {
+  body.tax-category_creator #archive-creator .body .wrap ul,
+  body.single-creator #archive-creator .body .wrap ul {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 5%;
   }
   body.post-type-archive-creator #archive-creator .body .wrap ul li,
-body.tax-category_creator #archive-creator .body .wrap ul li,
-body.single-creator #archive-creator .body .wrap ul li {
+  body.tax-category_creator #archive-creator .body .wrap ul li,
+  body.single-creator #archive-creator .body .wrap ul li {
     width: 30%;
   }
   body.post-type-archive-creator #archive-creator .body.single,
-body.tax-category_creator #archive-creator .body.single,
-body.single-creator #archive-creator .body.single {
+  body.tax-category_creator #archive-creator .body.single,
+  body.single-creator #archive-creator .body.single {
     padding: 0;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title,
-body.tax-category_creator #archive-creator .body.single .post-title,
-body.single-creator #archive-creator .body.single .post-title {
+  body.tax-category_creator #archive-creator .body.single .post-title,
+  body.single-creator #archive-creator .body.single .post-title {
     padding: 0;
     background: none;
     position: relative;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title:after,
-body.tax-category_creator #archive-creator .body.single .post-title:after,
-body.single-creator #archive-creator .body.single .post-title:after {
+  body.tax-category_creator #archive-creator .body.single .post-title:after,
+  body.single-creator #archive-creator .body.single .post-title:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -2784,27 +2755,27 @@ body.single-creator #archive-creator .body.single .post-title:after {
     z-index: 3;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row,
-body.tax-category_creator #archive-creator .body.single .post-title .row,
-body.single-creator #archive-creator .body.single .post-title .row {
+  body.tax-category_creator #archive-creator .body.single .post-title .row,
+  body.single-creator #archive-creator .body.single .post-title .row {
     display: block;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row figure,
-body.tax-category_creator #archive-creator .body.single .post-title .row figure,
-body.single-creator #archive-creator .body.single .post-title .row figure {
+  body.tax-category_creator #archive-creator .body.single .post-title .row figure,
+  body.single-creator #archive-creator .body.single .post-title .row figure {
     width: auto;
     text-align: center;
     padding: 0 20px;
     background: url(./assets/images/rect_g06.svg) no-repeat bottom left/120% 260px;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row figure img,
-body.tax-category_creator #archive-creator .body.single .post-title .row figure img,
-body.single-creator #archive-creator .body.single .post-title .row figure img {
+  body.tax-category_creator #archive-creator .body.single .post-title .row figure img,
+  body.single-creator #archive-creator .body.single .post-title .row figure img {
     width: 100%;
     max-width: 480px;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row .text,
-body.tax-category_creator #archive-creator .body.single .post-title .row .text,
-body.single-creator #archive-creator .body.single .post-title .row .text {
+  body.tax-category_creator #archive-creator .body.single .post-title .row .text,
+  body.single-creator #archive-creator .body.single .post-title .row .text {
     width: auto;
     padding: 20px 20px 60px;
     margin: -10px 0 0;
@@ -2813,41 +2784,41 @@ body.single-creator #archive-creator .body.single .post-title .row .text {
     z-index: 2;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row .text .tit,
-body.tax-category_creator #archive-creator .body.single .post-title .row .text .tit,
-body.single-creator #archive-creator .body.single .post-title .row .text .tit {
+  body.tax-category_creator #archive-creator .body.single .post-title .row .text .tit,
+  body.single-creator #archive-creator .body.single .post-title .row .text .tit {
     margin: 0 0 12px;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row .text .tit h2,
-body.tax-category_creator #archive-creator .body.single .post-title .row .text .tit h2,
-body.single-creator #archive-creator .body.single .post-title .row .text .tit h2 {
+  body.tax-category_creator #archive-creator .body.single .post-title .row .text .tit h2,
+  body.single-creator #archive-creator .body.single .post-title .row .text .tit h2 {
     font-size: 20px;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row .text .copy,
-body.tax-category_creator #archive-creator .body.single .post-title .row .text .copy,
-body.single-creator #archive-creator .body.single .post-title .row .text .copy {
+  body.tax-category_creator #archive-creator .body.single .post-title .row .text .copy,
+  body.single-creator #archive-creator .body.single .post-title .row .text .copy {
     margin: 0 0 20px;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row .text .copy p,
-body.tax-category_creator #archive-creator .body.single .post-title .row .text .copy p,
-body.single-creator #archive-creator .body.single .post-title .row .text .copy p {
+  body.tax-category_creator #archive-creator .body.single .post-title .row .text .copy p,
+  body.single-creator #archive-creator .body.single .post-title .row .text .copy p {
     padding: 4px 12px;
     font-size: 10px;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row .text .sns dl dt,
-body.tax-category_creator #archive-creator .body.single .post-title .row .text .sns dl dt,
-body.single-creator #archive-creator .body.single .post-title .row .text .sns dl dt {
+  body.tax-category_creator #archive-creator .body.single .post-title .row .text .sns dl dt,
+  body.single-creator #archive-creator .body.single .post-title .row .text .sns dl dt {
     font-size: 10px;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row .text .sns dl dd a,
-body.tax-category_creator #archive-creator .body.single .post-title .row .text .sns dl dd a,
-body.single-creator #archive-creator .body.single .post-title .row .text .sns dl dd a {
+  body.tax-category_creator #archive-creator .body.single .post-title .row .text .sns dl dd a,
+  body.single-creator #archive-creator .body.single .post-title .row .text .sns dl dd a {
     font-size: 10px;
     padding: 0 12px 0 24px;
     line-height: 20px;
   }
   body.post-type-archive-creator #archive-creator .body.single .post-title .row .text .sns dl dd a:before,
-body.tax-category_creator #archive-creator .body.single .post-title .row .text .sns dl dd a:before,
-body.single-creator #archive-creator .body.single .post-title .row .text .sns dl dd a:before {
+  body.tax-category_creator #archive-creator .body.single .post-title .row .text .sns dl dd a:before,
+  body.single-creator #archive-creator .body.single .post-title .row .text .sns dl dd a:before {
     width: 16px;
     height: 16px;
     background-size: 11px auto;
@@ -2855,13 +2826,13 @@ body.single-creator #archive-creator .body.single .post-title .row .text .sns dl
     left: 2px;
   }
   body.post-type-archive-creator #archive-creator .body.single .content,
-body.tax-category_creator #archive-creator .body.single .content,
-body.single-creator #archive-creator .body.single .content {
+  body.tax-category_creator #archive-creator .body.single .content,
+  body.single-creator #archive-creator .body.single .content {
     padding: 40px 0 0;
   }
   body.post-type-archive-creator #archive-creator .body.single .movie h2,
-body.tax-category_creator #archive-creator .body.single .movie h2,
-body.single-creator #archive-creator .body.single .movie h2 {
+  body.tax-category_creator #archive-creator .body.single .movie h2,
+  body.single-creator #archive-creator .body.single .movie h2 {
     padding: 14px 20px;
     font-size: 24px;
     color: #FFF;
@@ -2869,112 +2840,112 @@ body.single-creator #archive-creator .body.single .movie h2 {
     margin: 0 0 40px;
   }
   body.post-type-archive-creator #archive-creator .body.single .movie ul,
-body.tax-category_creator #archive-creator .body.single .movie ul,
-body.single-creator #archive-creator .body.single .movie ul {
+  body.tax-category_creator #archive-creator .body.single .movie ul,
+  body.single-creator #archive-creator .body.single .movie ul {
     gap: 20px 4%;
   }
   body.post-type-archive-creator #archive-creator .body.single .movie ul li,
-body.tax-category_creator #archive-creator .body.single .movie ul li,
-body.single-creator #archive-creator .body.single .movie ul li {
+  body.tax-category_creator #archive-creator .body.single .movie ul li,
+  body.single-creator #archive-creator .body.single .movie ul li {
     width: 48%;
   }
   body.post-type-archive-creator #archive-creator .btn,
-body.tax-category_creator #archive-creator .btn,
-body.single-creator #archive-creator .btn {
+  body.tax-category_creator #archive-creator .btn,
+  body.single-creator #archive-creator .btn {
     padding: 40px 20px 0;
   }
 }
 @media screen and (max-width: 768px) {
   body.post-type-archive-creator main,
-body.tax-category_creator main,
-body.single-creator main {
+  body.tax-category_creator main,
+  body.single-creator main {
     background: url(./assets/images/rect-p03.svg) no-repeat top left/90% auto;
   }
   body.post-type-archive-creator footer,
-body.tax-category_creator footer,
-body.single-creator footer {
+  body.tax-category_creator footer,
+  body.single-creator footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/300% 100%, url(./assets/images/rect-p05.svg) no-repeat left top/250% 100%;
   }
   body.post-type-archive-creator #archive-creator .title .wrap,
-body.tax-category_creator #archive-creator .title .wrap,
-body.single-creator #archive-creator .title .wrap {
+  body.tax-category_creator #archive-creator .title .wrap,
+  body.single-creator #archive-creator .title .wrap {
     padding: 0 20px;
     margin: 0 0 40px;
   }
   body.post-type-archive-creator #archive-creator .title .wrap h2,
-body.tax-category_creator #archive-creator .title .wrap h2,
-body.single-creator #archive-creator .title .wrap h2 {
+  body.tax-category_creator #archive-creator .title .wrap h2,
+  body.single-creator #archive-creator .title .wrap h2 {
     font-size: 32px;
     margin: 0 0 6px;
   }
   body.post-type-archive-creator #archive-creator .title .wrap small,
-body.tax-category_creator #archive-creator .title .wrap small,
-body.single-creator #archive-creator .title .wrap small {
+  body.tax-category_creator #archive-creator .title .wrap small,
+  body.single-creator #archive-creator .title .wrap small {
     font-size: 10px;
     padding: 0 0 0 40px;
   }
   body.post-type-archive-creator #archive-creator .title .wrap small:before,
-body.tax-category_creator #archive-creator .title .wrap small:before,
-body.single-creator #archive-creator .title .wrap small:before {
+  body.tax-category_creator #archive-creator .title .wrap small:before,
+  body.single-creator #archive-creator .title .wrap small:before {
     width: 20px;
   }
   body.post-type-archive-creator #archive-creator .body .wrap,
-body.tax-category_creator #archive-creator .body .wrap,
-body.single-creator #archive-creator .body .wrap {
+  body.tax-category_creator #archive-creator .body .wrap,
+  body.single-creator #archive-creator .body .wrap {
     margin: 0 20px;
   }
   body.post-type-archive-creator #archive-creator .body .wrap ul,
-body.tax-category_creator #archive-creator .body .wrap ul,
-body.single-creator #archive-creator .body .wrap ul {
+  body.tax-category_creator #archive-creator .body .wrap ul,
+  body.single-creator #archive-creator .body .wrap ul {
     gap: 40px 4%;
   }
   body.post-type-archive-creator #archive-creator .body .wrap ul li,
-body.tax-category_creator #archive-creator .body .wrap ul li,
-body.single-creator #archive-creator .body .wrap ul li {
+  body.tax-category_creator #archive-creator .body .wrap ul li,
+  body.single-creator #archive-creator .body .wrap ul li {
     width: 48%;
   }
   body.post-type-archive-creator #archive-creator .body .wrap ul li .cat,
-body.tax-category_creator #archive-creator .body .wrap ul li .cat,
-body.single-creator #archive-creator .body .wrap ul li .cat {
+  body.tax-category_creator #archive-creator .body .wrap ul li .cat,
+  body.single-creator #archive-creator .body .wrap ul li .cat {
     gap: 0 10px;
     margin: 0 0 12px;
   }
   body.post-type-archive-creator #archive-creator .body .wrap ul li .text h3,
-body.tax-category_creator #archive-creator .body .wrap ul li .text h3,
-body.single-creator #archive-creator .body .wrap ul li .text h3 {
+  body.tax-category_creator #archive-creator .body .wrap ul li .text h3,
+  body.single-creator #archive-creator .body .wrap ul li .text h3 {
     font-size: 14px;
   }
   body.post-type-archive-creator #archive-creator .body .wrap ul li .text p,
-body.tax-category_creator #archive-creator .body .wrap ul li .text p,
-body.single-creator #archive-creator .body .wrap ul li .text p {
+  body.tax-category_creator #archive-creator .body .wrap ul li .text p,
+  body.single-creator #archive-creator .body .wrap ul li .text p {
     font-size: 12px;
   }
   body.post-type-archive-creator #archive-creator .body.single,
-body.tax-category_creator #archive-creator .body.single,
-body.single-creator #archive-creator .body.single {
+  body.tax-category_creator #archive-creator .body.single,
+  body.single-creator #archive-creator .body.single {
     padding: 0;
   }
   body.post-type-archive-creator #archive-creator .body.single .movie ul li figure,
-body.tax-category_creator #archive-creator .body.single .movie ul li figure,
-body.single-creator #archive-creator .body.single .movie ul li figure {
+  body.tax-category_creator #archive-creator .body.single .movie ul li figure,
+  body.single-creator #archive-creator .body.single .movie ul li figure {
     margin: 0 0 12px;
   }
   body.post-type-archive-creator #archive-creator .body.single .movie h2,
-body.tax-category_creator #archive-creator .body.single .movie h2,
-body.single-creator #archive-creator .body.single .movie h2 {
+  body.tax-category_creator #archive-creator .body.single .movie h2,
+  body.single-creator #archive-creator .body.single .movie h2 {
     font-size: 16px;
     margin: 0 0 20px;
   }
   body.post-type-archive-creator #archive-creator .body.single .movie p,
-body.tax-category_creator #archive-creator .body.single .movie p,
-body.single-creator #archive-creator .body.single .movie p {
+  body.tax-category_creator #archive-creator .body.single .movie p,
+  body.single-creator #archive-creator .body.single .movie p {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 480px) {
   body.post-type-archive-creator footer,
-body.tax-category_creator footer,
-body.single-creator footer {
+  body.tax-category_creator footer,
+  body.single-creator footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/400% 100%, url(./assets/images/rect-p05.svg) no-repeat left top/350% 100%;
   }
 }
@@ -3355,52 +3326,52 @@ body.single-music #archive-music .btn:before {
 
 @media screen and (max-width: 1280px) {
   body.post-type-archive-music #archive-music .body .wrap,
-body.tax-category_music #archive-music .body .wrap,
-body.single-music #archive-music .body .wrap {
+  body.tax-category_music #archive-music .body .wrap,
+  body.single-music #archive-music .body .wrap {
     margin: 0 40px;
   }
   body.post-type-archive-music #archive-music .body .wrap ul,
-body.tax-category_music #archive-music .body .wrap ul,
-body.single-music #archive-music .body .wrap ul {
+  body.tax-category_music #archive-music .body .wrap ul,
+  body.single-music #archive-music .body .wrap ul {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 4%;
   }
   body.post-type-archive-music #archive-music .body .wrap ul li,
-body.tax-category_music #archive-music .body .wrap ul li,
-body.single-music #archive-music .body .wrap ul li {
+  body.tax-category_music #archive-music .body .wrap ul li,
+  body.single-music #archive-music .body .wrap ul li {
     width: 16.8%;
   }
   body.post-type-archive-music #archive-music .body.single .post-title,
-body.tax-category_music #archive-music .body.single .post-title,
-body.single-music #archive-music .body.single .post-title {
+  body.tax-category_music #archive-music .body.single .post-title,
+  body.single-music #archive-music .body.single .post-title {
     padding: 0 40px;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row,
-body.tax-category_music #archive-music .body.single .post-title .row,
-body.single-music #archive-music .body.single .post-title .row {
+  body.tax-category_music #archive-music .body.single .post-title .row,
+  body.single-music #archive-music .body.single .post-title .row {
     display: flex;
     align-items: end;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row figure,
-body.tax-category_music #archive-music .body.single .post-title .row figure,
-body.single-music #archive-music .body.single .post-title .row figure {
+  body.tax-category_music #archive-music .body.single .post-title .row figure,
+  body.single-music #archive-music .body.single .post-title .row figure {
     width: 50%;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row .text,
-body.tax-category_music #archive-music .body.single .post-title .row .text,
-body.single-music #archive-music .body.single .post-title .row .text {
+  body.tax-category_music #archive-music .body.single .post-title .row .text,
+  body.single-music #archive-music .body.single .post-title .row .text {
     width: 48%;
     padding: 40px 0 80px;
   }
   body.post-type-archive-music #archive-music .body.single .content,
-body.tax-category_music #archive-music .body.single .content,
-body.single-music #archive-music .body.single .content {
+  body.tax-category_music #archive-music .body.single .content,
+  body.single-music #archive-music .body.single .content {
     padding: 60px 0 0;
   }
   body.post-type-archive-music #archive-music .body.single .movie h2,
-body.tax-category_music #archive-music .body.single .movie h2,
-body.single-music #archive-music .body.single .movie h2 {
+  body.tax-category_music #archive-music .body.single .movie h2,
+  body.single-music #archive-music .body.single .movie h2 {
     padding: 14px 20px;
     font-size: 24px;
     color: #FFF;
@@ -3408,55 +3379,55 @@ body.single-music #archive-music .body.single .movie h2 {
     margin: 0 0 40px;
   }
   body.post-type-archive-music #archive-music .body.single .movie ul li,
-body.tax-category_music #archive-music .body.single .movie ul li,
-body.single-music #archive-music .body.single .movie ul li {
+  body.tax-category_music #archive-music .body.single .movie ul li,
+  body.single-music #archive-music .body.single .movie ul li {
     width: 273px;
   }
   body.post-type-archive-music #archive-music .body.single .movie ul li figure,
-body.tax-category_music #archive-music .body.single .movie ul li figure,
-body.single-music #archive-music .body.single .movie ul li figure {
+  body.tax-category_music #archive-music .body.single .movie ul li figure,
+  body.single-music #archive-music .body.single .movie ul li figure {
     aspect-ratio: 5/3;
   }
 }
 @media screen and (max-width: 980px) {
   body.post-type-archive-music footer,
-body.tax-category_music footer,
-body.single-music footer {
+  body.tax-category_music footer,
+  body.single-music footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/200% 100%, url(./assets/images/rect-bl03.svg) no-repeat left top/150% 100%;
   }
   body.post-type-archive-music #archive-music .body,
-body.tax-category_music #archive-music .body,
-body.single-music #archive-music .body {
+  body.tax-category_music #archive-music .body,
+  body.single-music #archive-music .body {
     background: url(./assets/images/bg_contens_b.svg) no-repeat center top/200% 100%, url(./assets/images/rect-bl02.svg) no-repeat right top/150% 383px;
     padding: 100px 0;
   }
   body.post-type-archive-music #archive-music .body .wrap ul,
-body.tax-category_music #archive-music .body .wrap ul,
-body.single-music #archive-music .body .wrap ul {
+  body.tax-category_music #archive-music .body .wrap ul,
+  body.single-music #archive-music .body .wrap ul {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 5%;
   }
   body.post-type-archive-music #archive-music .body .wrap ul li,
-body.tax-category_music #archive-music .body .wrap ul li,
-body.single-music #archive-music .body .wrap ul li {
+  body.tax-category_music #archive-music .body .wrap ul li,
+  body.single-music #archive-music .body .wrap ul li {
     width: 30%;
   }
   body.post-type-archive-music #archive-music .body.single,
-body.tax-category_music #archive-music .body.single,
-body.single-music #archive-music .body.single {
+  body.tax-category_music #archive-music .body.single,
+  body.single-music #archive-music .body.single {
     padding: 0;
   }
   body.post-type-archive-music #archive-music .body.single .post-title,
-body.tax-category_music #archive-music .body.single .post-title,
-body.single-music #archive-music .body.single .post-title {
+  body.tax-category_music #archive-music .body.single .post-title,
+  body.single-music #archive-music .body.single .post-title {
     padding: 0;
     background: none;
     position: relative;
   }
   body.post-type-archive-music #archive-music .body.single .post-title:after,
-body.tax-category_music #archive-music .body.single .post-title:after,
-body.single-music #archive-music .body.single .post-title:after {
+  body.tax-category_music #archive-music .body.single .post-title:after,
+  body.single-music #archive-music .body.single .post-title:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -3467,27 +3438,27 @@ body.single-music #archive-music .body.single .post-title:after {
     z-index: 3;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row,
-body.tax-category_music #archive-music .body.single .post-title .row,
-body.single-music #archive-music .body.single .post-title .row {
+  body.tax-category_music #archive-music .body.single .post-title .row,
+  body.single-music #archive-music .body.single .post-title .row {
     display: block;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row figure,
-body.tax-category_music #archive-music .body.single .post-title .row figure,
-body.single-music #archive-music .body.single .post-title .row figure {
+  body.tax-category_music #archive-music .body.single .post-title .row figure,
+  body.single-music #archive-music .body.single .post-title .row figure {
     width: auto;
     text-align: center;
     padding: 0 20px;
     background: url(./assets/images/rect_g07.svg) no-repeat bottom left/120% 260px;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row figure img,
-body.tax-category_music #archive-music .body.single .post-title .row figure img,
-body.single-music #archive-music .body.single .post-title .row figure img {
+  body.tax-category_music #archive-music .body.single .post-title .row figure img,
+  body.single-music #archive-music .body.single .post-title .row figure img {
     width: 100%;
     max-width: 480px;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row .text,
-body.tax-category_music #archive-music .body.single .post-title .row .text,
-body.single-music #archive-music .body.single .post-title .row .text {
+  body.tax-category_music #archive-music .body.single .post-title .row .text,
+  body.single-music #archive-music .body.single .post-title .row .text {
     width: auto;
     padding: 20px 20px 60px;
     margin: -10px 0 0;
@@ -3496,41 +3467,41 @@ body.single-music #archive-music .body.single .post-title .row .text {
     z-index: 2;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row .text .tit,
-body.tax-category_music #archive-music .body.single .post-title .row .text .tit,
-body.single-music #archive-music .body.single .post-title .row .text .tit {
+  body.tax-category_music #archive-music .body.single .post-title .row .text .tit,
+  body.single-music #archive-music .body.single .post-title .row .text .tit {
     margin: 0 0 12px;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row .text .tit h2,
-body.tax-category_music #archive-music .body.single .post-title .row .text .tit h2,
-body.single-music #archive-music .body.single .post-title .row .text .tit h2 {
+  body.tax-category_music #archive-music .body.single .post-title .row .text .tit h2,
+  body.single-music #archive-music .body.single .post-title .row .text .tit h2 {
     font-size: 20px;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row .text .copy,
-body.tax-category_music #archive-music .body.single .post-title .row .text .copy,
-body.single-music #archive-music .body.single .post-title .row .text .copy {
+  body.tax-category_music #archive-music .body.single .post-title .row .text .copy,
+  body.single-music #archive-music .body.single .post-title .row .text .copy {
     margin: 0 0 20px;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row .text .copy p,
-body.tax-category_music #archive-music .body.single .post-title .row .text .copy p,
-body.single-music #archive-music .body.single .post-title .row .text .copy p {
+  body.tax-category_music #archive-music .body.single .post-title .row .text .copy p,
+  body.single-music #archive-music .body.single .post-title .row .text .copy p {
     padding: 4px 12px;
     font-size: 10px;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row .text .sns dl dt,
-body.tax-category_music #archive-music .body.single .post-title .row .text .sns dl dt,
-body.single-music #archive-music .body.single .post-title .row .text .sns dl dt {
+  body.tax-category_music #archive-music .body.single .post-title .row .text .sns dl dt,
+  body.single-music #archive-music .body.single .post-title .row .text .sns dl dt {
     font-size: 10px;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row .text .sns dl dd a,
-body.tax-category_music #archive-music .body.single .post-title .row .text .sns dl dd a,
-body.single-music #archive-music .body.single .post-title .row .text .sns dl dd a {
+  body.tax-category_music #archive-music .body.single .post-title .row .text .sns dl dd a,
+  body.single-music #archive-music .body.single .post-title .row .text .sns dl dd a {
     font-size: 10px;
     padding: 0 12px 0 24px;
     line-height: 20px;
   }
   body.post-type-archive-music #archive-music .body.single .post-title .row .text .sns dl dd a:before,
-body.tax-category_music #archive-music .body.single .post-title .row .text .sns dl dd a:before,
-body.single-music #archive-music .body.single .post-title .row .text .sns dl dd a:before {
+  body.tax-category_music #archive-music .body.single .post-title .row .text .sns dl dd a:before,
+  body.single-music #archive-music .body.single .post-title .row .text .sns dl dd a:before {
     width: 16px;
     height: 16px;
     background-size: 11px auto;
@@ -3538,13 +3509,13 @@ body.single-music #archive-music .body.single .post-title .row .text .sns dl dd 
     left: 2px;
   }
   body.post-type-archive-music #archive-music .body.single .content,
-body.tax-category_music #archive-music .body.single .content,
-body.single-music #archive-music .body.single .content {
+  body.tax-category_music #archive-music .body.single .content,
+  body.single-music #archive-music .body.single .content {
     padding: 40px 0 0;
   }
   body.post-type-archive-music #archive-music .body.single .movie h2,
-body.tax-category_music #archive-music .body.single .movie h2,
-body.single-music #archive-music .body.single .movie h2 {
+  body.tax-category_music #archive-music .body.single .movie h2,
+  body.single-music #archive-music .body.single .movie h2 {
     padding: 14px 20px;
     font-size: 24px;
     color: #FFF;
@@ -3552,112 +3523,112 @@ body.single-music #archive-music .body.single .movie h2 {
     margin: 0 0 40px;
   }
   body.post-type-archive-music #archive-music .body.single .movie ul,
-body.tax-category_music #archive-music .body.single .movie ul,
-body.single-music #archive-music .body.single .movie ul {
+  body.tax-category_music #archive-music .body.single .movie ul,
+  body.single-music #archive-music .body.single .movie ul {
     gap: 20px 4%;
   }
   body.post-type-archive-music #archive-music .body.single .movie ul li,
-body.tax-category_music #archive-music .body.single .movie ul li,
-body.single-music #archive-music .body.single .movie ul li {
+  body.tax-category_music #archive-music .body.single .movie ul li,
+  body.single-music #archive-music .body.single .movie ul li {
     width: 48%;
   }
   body.post-type-archive-music #archive-music .btn,
-body.tax-category_music #archive-music .btn,
-body.single-music #archive-music .btn {
+  body.tax-category_music #archive-music .btn,
+  body.single-music #archive-music .btn {
     padding: 40px 20px 0;
   }
 }
 @media screen and (max-width: 768px) {
   body.post-type-archive-music main,
-body.tax-category_music main,
-body.single-music main {
+  body.tax-category_music main,
+  body.single-music main {
     background: url(./assets/images/rect-bl01.svg) no-repeat top left/90% auto;
   }
   body.post-type-archive-music footer,
-body.tax-category_music footer,
-body.single-music footer {
+  body.tax-category_music footer,
+  body.single-music footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/300% 100%, url(./assets/images/rect-bl03.svg) no-repeat left top/250% 100%;
   }
   body.post-type-archive-music #archive-music .title .wrap,
-body.tax-category_music #archive-music .title .wrap,
-body.single-music #archive-music .title .wrap {
+  body.tax-category_music #archive-music .title .wrap,
+  body.single-music #archive-music .title .wrap {
     padding: 0 20px;
     margin: 0 0 40px;
   }
   body.post-type-archive-music #archive-music .title .wrap h2,
-body.tax-category_music #archive-music .title .wrap h2,
-body.single-music #archive-music .title .wrap h2 {
+  body.tax-category_music #archive-music .title .wrap h2,
+  body.single-music #archive-music .title .wrap h2 {
     font-size: 32px;
     margin: 0 0 6px;
   }
   body.post-type-archive-music #archive-music .title .wrap small,
-body.tax-category_music #archive-music .title .wrap small,
-body.single-music #archive-music .title .wrap small {
+  body.tax-category_music #archive-music .title .wrap small,
+  body.single-music #archive-music .title .wrap small {
     font-size: 10px;
     padding: 0 0 0 40px;
   }
   body.post-type-archive-music #archive-music .title .wrap small:before,
-body.tax-category_music #archive-music .title .wrap small:before,
-body.single-music #archive-music .title .wrap small:before {
+  body.tax-category_music #archive-music .title .wrap small:before,
+  body.single-music #archive-music .title .wrap small:before {
     width: 20px;
   }
   body.post-type-archive-music #archive-music .body .wrap,
-body.tax-category_music #archive-music .body .wrap,
-body.single-music #archive-music .body .wrap {
+  body.tax-category_music #archive-music .body .wrap,
+  body.single-music #archive-music .body .wrap {
     margin: 0 20px;
   }
   body.post-type-archive-music #archive-music .body .wrap ul,
-body.tax-category_music #archive-music .body .wrap ul,
-body.single-music #archive-music .body .wrap ul {
+  body.tax-category_music #archive-music .body .wrap ul,
+  body.single-music #archive-music .body .wrap ul {
     gap: 40px 4%;
   }
   body.post-type-archive-music #archive-music .body .wrap ul li,
-body.tax-category_music #archive-music .body .wrap ul li,
-body.single-music #archive-music .body .wrap ul li {
+  body.tax-category_music #archive-music .body .wrap ul li,
+  body.single-music #archive-music .body .wrap ul li {
     width: 48%;
   }
   body.post-type-archive-music #archive-music .body .wrap ul li .cat,
-body.tax-category_music #archive-music .body .wrap ul li .cat,
-body.single-music #archive-music .body .wrap ul li .cat {
+  body.tax-category_music #archive-music .body .wrap ul li .cat,
+  body.single-music #archive-music .body .wrap ul li .cat {
     gap: 0 10px;
     margin: 0 0 12px;
   }
   body.post-type-archive-music #archive-music .body .wrap ul li .text h3,
-body.tax-category_music #archive-music .body .wrap ul li .text h3,
-body.single-music #archive-music .body .wrap ul li .text h3 {
+  body.tax-category_music #archive-music .body .wrap ul li .text h3,
+  body.single-music #archive-music .body .wrap ul li .text h3 {
     font-size: 14px;
   }
   body.post-type-archive-music #archive-music .body .wrap ul li .text p,
-body.tax-category_music #archive-music .body .wrap ul li .text p,
-body.single-music #archive-music .body .wrap ul li .text p {
+  body.tax-category_music #archive-music .body .wrap ul li .text p,
+  body.single-music #archive-music .body .wrap ul li .text p {
     font-size: 12px;
   }
   body.post-type-archive-music #archive-music .body.single,
-body.tax-category_music #archive-music .body.single,
-body.single-music #archive-music .body.single {
+  body.tax-category_music #archive-music .body.single,
+  body.single-music #archive-music .body.single {
     padding: 0;
   }
   body.post-type-archive-music #archive-music .body.single .movie ul li figure,
-body.tax-category_music #archive-music .body.single .movie ul li figure,
-body.single-music #archive-music .body.single .movie ul li figure {
+  body.tax-category_music #archive-music .body.single .movie ul li figure,
+  body.single-music #archive-music .body.single .movie ul li figure {
     margin: 0 0 12px;
   }
   body.post-type-archive-music #archive-music .body.single .movie h2,
-body.tax-category_music #archive-music .body.single .movie h2,
-body.single-music #archive-music .body.single .movie h2 {
+  body.tax-category_music #archive-music .body.single .movie h2,
+  body.single-music #archive-music .body.single .movie h2 {
     font-size: 16px;
     margin: 0 0 20px;
   }
   body.post-type-archive-music #archive-music .body.single .movie p,
-body.tax-category_music #archive-music .body.single .movie p,
-body.single-music #archive-music .body.single .movie p {
+  body.tax-category_music #archive-music .body.single .movie p,
+  body.single-music #archive-music .body.single .movie p {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 480px) {
   body.post-type-archive-music footer,
-body.tax-category_music footer,
-body.single-music footer {
+  body.tax-category_music footer,
+  body.single-music footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/400% 100%, url(./assets/images/rect-bl03.svg) no-repeat left top/350% 100%;
   }
 }
@@ -4339,62 +4310,62 @@ body.single-business #archive-business .btn {
 
 @media screen and (max-width: 980px) {
   body.post-type-archive-business footer,
-body.tax-category_business footer,
-body.single-business footer {
+  body.tax-category_business footer,
+  body.single-business footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/200% 100%, url(./assets/images/rect_y03.svg) no-repeat left top/150% 100%;
   }
   body.post-type-archive-business #archive-business .body .term-title,
-body.tax-category_business #archive-business .body .term-title,
-body.single-business #archive-business .body .term-title {
+  body.tax-category_business #archive-business .body .term-title,
+  body.single-business #archive-business .body .term-title {
     background: url(./assets/images/business-bg05.svg) no-repeat left -100px top/200% 100%, url(./assets/images/rect_y02.svg) no-repeat right top/100% 383px;
     padding: 80px 0 140px;
   }
   body.post-type-archive-business #archive-business .body .term-title .row,
-body.tax-category_business #archive-business .body .term-title .row,
-body.single-business #archive-business .body .term-title .row {
+  body.tax-category_business #archive-business .body .term-title .row,
+  body.single-business #archive-business .body .term-title .row {
     display: block;
   }
   body.post-type-archive-business #archive-business .body .term-title .row figure,
-body.tax-category_business #archive-business .body .term-title .row figure,
-body.single-business #archive-business .body .term-title .row figure {
+  body.tax-category_business #archive-business .body .term-title .row figure,
+  body.single-business #archive-business .body .term-title .row figure {
     width: 85%;
     aspect-ratio: 7/6;
   }
   body.post-type-archive-business #archive-business .body .term-title .row .text,
-body.tax-category_business #archive-business .body .term-title .row .text,
-body.single-business #archive-business .body .term-title .row .text {
+  body.tax-category_business #archive-business .body .term-title .row .text,
+  body.single-business #archive-business .body .term-title .row .text {
     width: auto;
     padding: 0 20px;
   }
   body.post-type-archive-business #archive-business .body .term-title .row .text h2,
-body.tax-category_business #archive-business .body .term-title .row .text h2,
-body.single-business #archive-business .body .term-title .row .text h2 {
+  body.tax-category_business #archive-business .body .term-title .row .text h2,
+  body.single-business #archive-business .body .term-title .row .text h2 {
     font-size: 16px;
     margin: 0 0 10px;
   }
   body.post-type-archive-business #archive-business .body .term-title .row .text p,
-body.tax-category_business #archive-business .body .term-title .row .text p,
-body.single-business #archive-business .body .term-title .row .text p {
+  body.tax-category_business #archive-business .body .term-title .row .text p,
+  body.single-business #archive-business .body .term-title .row .text p {
     font-size: 13px;
   }
   body.post-type-archive-business #archive-business .body .business-list,
-body.tax-category_business #archive-business .body .business-list,
-body.single-business #archive-business .body .business-list {
+  body.tax-category_business #archive-business .body .business-list,
+  body.single-business #archive-business .body .business-list {
     margin: 0 40px;
   }
   body.post-type-archive-business #archive-business .body .business-list ul,
-body.tax-category_business #archive-business .body .business-list ul,
-body.single-business #archive-business .body .business-list ul {
+  body.tax-category_business #archive-business .body .business-list ul,
+  body.single-business #archive-business .body .business-list ul {
     gap: 40px 2%;
   }
   body.post-type-archive-business #archive-business .body .business-list ul li,
-body.tax-category_business #archive-business .body .business-list ul li,
-body.single-business #archive-business .body .business-list ul li {
+  body.tax-category_business #archive-business .body .business-list ul li,
+  body.single-business #archive-business .body .business-list ul li {
     width: 32%;
   }
   body.post-type-archive-business #archive-business .body.single,
-body.tax-category_business #archive-business .body.single,
-body.single-business #archive-business .body.single {
+  body.tax-category_business #archive-business .body.single,
+  body.single-business #archive-business .body.single {
     margin: 40px 0 0;
     padding: 100px 40px;
     background: url(./assets/images/business-bg04.svg) no-repeat center top/200% 100%, url(./assets/images/rect_y02.svg) no-repeat right top/120% 383px;
@@ -4402,149 +4373,149 @@ body.single-business #archive-business .body.single {
 }
 @media screen and (max-width: 768px) {
   body.post-type-archive-business main,
-body.tax-category_business main,
-body.single-business main {
+  body.tax-category_business main,
+  body.single-business main {
     background: url(./assets/images/rect_y01.svg) no-repeat top left/90% auto;
   }
   body.post-type-archive-business footer,
-body.tax-category_business footer,
-body.single-business footer {
+  body.tax-category_business footer,
+  body.single-business footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right top/300% 100%, url(./assets/images/rect_y03.svg) no-repeat left top/250% 371px;
   }
   body.post-type-archive-business #archive-business,
-body.tax-category_business #archive-business,
-body.single-business #archive-business {
+  body.tax-category_business #archive-business,
+  body.single-business #archive-business {
     padding: 40px 0 60px;
   }
   body.post-type-archive-business #archive-business .title .wrap,
-body.tax-category_business #archive-business .title .wrap,
-body.single-business #archive-business .title .wrap {
+  body.tax-category_business #archive-business .title .wrap,
+  body.single-business #archive-business .title .wrap {
     padding: 0 20px;
   }
   body.post-type-archive-business #archive-business .title .wrap h2,
-body.tax-category_business #archive-business .title .wrap h2,
-body.single-business #archive-business .title .wrap h2 {
+  body.tax-category_business #archive-business .title .wrap h2,
+  body.single-business #archive-business .title .wrap h2 {
     font-size: 32px;
     margin: 0 0 6px;
   }
   body.post-type-archive-business #archive-business .title .wrap small,
-body.tax-category_business #archive-business .title .wrap small,
-body.single-business #archive-business .title .wrap small {
+  body.tax-category_business #archive-business .title .wrap small,
+  body.single-business #archive-business .title .wrap small {
     font-size: 10px;
     padding: 0 0 0 40px;
   }
   body.post-type-archive-business #archive-business .title .wrap small:before,
-body.tax-category_business #archive-business .title .wrap small:before,
-body.single-business #archive-business .title .wrap small:before {
+  body.tax-category_business #archive-business .title .wrap small:before,
+  body.single-business #archive-business .title .wrap small:before {
     width: 20px;
   }
   body.post-type-archive-business #archive-business .body,
-body.tax-category_business #archive-business .body,
-body.single-business #archive-business .body {
+  body.tax-category_business #archive-business .body,
+  body.single-business #archive-business .body {
     background: url(./assets/images/business-bg04.svg) no-repeat center top/300% 100%, url(./assets/images/rect_y02.svg) no-repeat right top/100% 383px;
     padding: 60px 0;
   }
   body.post-type-archive-business #archive-business .body.taxonomy,
-body.tax-category_business #archive-business .body.taxonomy,
-body.single-business #archive-business .body.taxonomy {
+  body.tax-category_business #archive-business .body.taxonomy,
+  body.single-business #archive-business .body.taxonomy {
     padding: 0 0 60px;
   }
   body.post-type-archive-business #archive-business .body .business-category,
-body.tax-category_business #archive-business .body .business-category,
-body.single-business #archive-business .body .business-category {
+  body.tax-category_business #archive-business .body .business-category,
+  body.single-business #archive-business .body .business-category {
     display: block;
     margin: 0;
     min-height: auto;
     padding: 0 0 160px;
   }
   body.post-type-archive-business #archive-business .body .business-category .text,
-body.tax-category_business #archive-business .body .business-category .text,
-body.single-business #archive-business .body .business-category .text {
+  body.tax-category_business #archive-business .body .business-category .text,
+  body.single-business #archive-business .body .business-category .text {
     width: auto;
     padding: 0 20px;
   }
   body.post-type-archive-business #archive-business .body .business-category .text h3,
-body.tax-category_business #archive-business .body .business-category .text h3,
-body.single-business #archive-business .body .business-category .text h3 {
+  body.tax-category_business #archive-business .body .business-category .text h3,
+  body.single-business #archive-business .body .business-category .text h3 {
     font-size: 20px;
     margin: 0 0 20px;
   }
   body.post-type-archive-business #archive-business .body .business-category .text p,
-body.tax-category_business #archive-business .body .business-category .text p,
-body.single-business #archive-business .body .business-category .text p {
+  body.tax-category_business #archive-business .body .business-category .text p,
+  body.single-business #archive-business .body .business-category .text p {
     font-size: 13px;
   }
   body.post-type-archive-business #archive-business .body .business-category .text .btn,
-body.tax-category_business #archive-business .body .business-category .text .btn,
-body.single-business #archive-business .body .business-category .text .btn {
+  body.tax-category_business #archive-business .body .business-category .text .btn,
+  body.single-business #archive-business .body .business-category .text .btn {
     padding: 20px 0 0;
   }
   body.post-type-archive-business #archive-business .body .business-category figure,
-body.tax-category_business #archive-business .body .business-category figure,
-body.single-business #archive-business .body .business-category figure {
+  body.tax-category_business #archive-business .body .business-category figure,
+  body.single-business #archive-business .body .business-category figure {
     width: 85%;
     margin: 0 0 0 15%;
   }
   body.post-type-archive-business #archive-business .body .business-category:nth-child(odd),
-body.tax-category_business #archive-business .body .business-category:nth-child(odd),
-body.single-business #archive-business .body .business-category:nth-child(odd) {
+  body.tax-category_business #archive-business .body .business-category:nth-child(odd),
+  body.single-business #archive-business .body .business-category:nth-child(odd) {
     background: url(./assets/images/business-bg01.svg) no-repeat center top/200% 100%, url(./assets/images/business-bg02.svg) no-repeat left bottom/100% 400px;
   }
   body.post-type-archive-business #archive-business .body .business-category:nth-child(odd) figure,
-body.tax-category_business #archive-business .body .business-category:nth-child(odd) figure,
-body.single-business #archive-business .body .business-category:nth-child(odd) figure {
+  body.tax-category_business #archive-business .body .business-category:nth-child(odd) figure,
+  body.single-business #archive-business .body .business-category:nth-child(odd) figure {
     margin: 0 15% 0 0;
   }
   body.post-type-archive-business #archive-business .body .business-category:nth-child(3),
-body.tax-category_business #archive-business .body .business-category:nth-child(3),
-body.single-business #archive-business .body .business-category:nth-child(3) {
+  body.tax-category_business #archive-business .body .business-category:nth-child(3),
+  body.single-business #archive-business .body .business-category:nth-child(3) {
     background: url(./assets/images/business-bg01.svg) no-repeat center top/200% 100%, url(./assets/images/business-bg02.svg) no-repeat left bottom/150% 400px, url(./assets/images/business-bg03.svg) no-repeat right top/150% 317px;
   }
   body.post-type-archive-business #archive-business .body .business-list,
-body.tax-category_business #archive-business .body .business-list,
-body.single-business #archive-business .body .business-list {
+  body.tax-category_business #archive-business .body .business-list,
+  body.single-business #archive-business .body .business-list {
     margin: 0 20px;
   }
   body.post-type-archive-business #archive-business .body .business-list h3,
-body.tax-category_business #archive-business .body .business-list h3,
-body.single-business #archive-business .body .business-list h3 {
+  body.tax-category_business #archive-business .body .business-list h3,
+  body.single-business #archive-business .body .business-list h3 {
     font-size: 16px;
     margin: 0 0 20px;
   }
   body.post-type-archive-business #archive-business .body .business-list ul,
-body.tax-category_business #archive-business .body .business-list ul,
-body.single-business #archive-business .body .business-list ul {
+  body.tax-category_business #archive-business .body .business-list ul,
+  body.single-business #archive-business .body .business-list ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px 4%;
   }
   body.post-type-archive-business #archive-business .body .business-list ul li,
-body.tax-category_business #archive-business .body .business-list ul li,
-body.single-business #archive-business .body .business-list ul li {
+  body.tax-category_business #archive-business .body .business-list ul li,
+  body.single-business #archive-business .body .business-list ul li {
     width: 48%;
   }
   body.post-type-archive-business #archive-business .body .business-list ul li p,
-body.tax-category_business #archive-business .body .business-list ul li p,
-body.single-business #archive-business .body .business-list ul li p {
+  body.tax-category_business #archive-business .body .business-list ul li p,
+  body.single-business #archive-business .body .business-list ul li p {
     font-size: 13px;
   }
   body.post-type-archive-business #archive-business .body.single,
-body.tax-category_business #archive-business .body.single,
-body.single-business #archive-business .body.single {
+  body.tax-category_business #archive-business .body.single,
+  body.single-business #archive-business .body.single {
     margin: 40px 0 0;
     padding: 100px 20px;
     background: url(./assets/images/business-bg04.svg) no-repeat center top/300% 100%, url(./assets/images/rect_y02.svg) no-repeat right top/120% 383px;
   }
   body.post-type-archive-business #archive-business .btn,
-body.tax-category_business #archive-business .btn,
-body.single-business #archive-business .btn {
+  body.tax-category_business #archive-business .btn,
+  body.single-business #archive-business .btn {
     padding: 0 20px;
   }
 }
 @media screen and (max-width: 480px) {
   body.post-type-archive-business footer,
-body.tax-category_business footer,
-body.single-business footer {
+  body.tax-category_business footer,
+  body.single-business footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/400% 100%, url(./assets/images/rect_y03.svg) no-repeat left top/350% 100%;
   }
 }
@@ -4837,140 +4808,140 @@ body.page-id-28 #page-contact .body .contact-complete .mw_wp_form_send_error {
 
 @media screen and (max-width: 980px) {
   body.page-id-24 footer,
-body.page-id-26 footer,
-body.page-id-28 footer {
+  body.page-id-26 footer,
+  body.page-id-28 footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/200% 100%, url(./assets/images/rect-p05.svg) no-repeat left top/150% 100%;
   }
   body.page-id-24 #page-contact .body,
-body.page-id-26 #page-contact .body,
-body.page-id-28 #page-contact .body {
+  body.page-id-26 #page-contact .body,
+  body.page-id-28 #page-contact .body {
     background: url(./assets/images/bg_contens.svg) no-repeat center top/200% 100%, url(./assets/images/rect-p04.svg) no-repeat right top/120% 383px;
   }
   body.page-id-24 #page-contact .body .wrap,
-body.page-id-26 #page-contact .body .wrap,
-body.page-id-28 #page-contact .body .wrap {
+  body.page-id-26 #page-contact .body .wrap,
+  body.page-id-28 #page-contact .body .wrap {
     margin: 0 40px;
   }
 }
 @media screen and (max-width: 768px) {
   body.page-id-24 main,
-body.page-id-26 main,
-body.page-id-28 main {
+  body.page-id-26 main,
+  body.page-id-28 main {
     background: url(./assets/images/rect-p03.svg) no-repeat top left/90% auto;
   }
   body.page-id-24 footer,
-body.page-id-26 footer,
-body.page-id-28 footer {
+  body.page-id-26 footer,
+  body.page-id-28 footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right top/300% 100%, url(./assets/images/rect-p05.svg) no-repeat left top/250% 100%;
   }
   body.page-id-24 #page-contact,
-body.page-id-26 #page-contact,
-body.page-id-28 #page-contact {
+  body.page-id-26 #page-contact,
+  body.page-id-28 #page-contact {
     padding: 40px 0;
   }
   body.page-id-24 #page-contact .title .wrap,
-body.page-id-26 #page-contact .title .wrap,
-body.page-id-28 #page-contact .title .wrap {
+  body.page-id-26 #page-contact .title .wrap,
+  body.page-id-28 #page-contact .title .wrap {
     padding: 0 40px;
     margin: 0 0 40px;
   }
   body.page-id-24 #page-contact .title .wrap h2,
-body.page-id-26 #page-contact .title .wrap h2,
-body.page-id-28 #page-contact .title .wrap h2 {
+  body.page-id-26 #page-contact .title .wrap h2,
+  body.page-id-28 #page-contact .title .wrap h2 {
     font-size: 32px;
     margin: 0 0 6px;
   }
   body.page-id-24 #page-contact .title .wrap small,
-body.page-id-26 #page-contact .title .wrap small,
-body.page-id-28 #page-contact .title .wrap small {
+  body.page-id-26 #page-contact .title .wrap small,
+  body.page-id-28 #page-contact .title .wrap small {
     font-size: 10px;
     padding: 0 0 0 40px;
   }
   body.page-id-24 #page-contact .title .wrap small:before,
-body.page-id-26 #page-contact .title .wrap small:before,
-body.page-id-28 #page-contact .title .wrap small:before {
+  body.page-id-26 #page-contact .title .wrap small:before,
+  body.page-id-28 #page-contact .title .wrap small:before {
     width: 20px;
   }
   body.page-id-24 #page-contact .body,
-body.page-id-26 #page-contact .body,
-body.page-id-28 #page-contact .body {
+  body.page-id-26 #page-contact .body,
+  body.page-id-28 #page-contact .body {
     background: url(./assets/images/bg_contens.svg) no-repeat center top/300% 100%, url(./assets/images/rect-p04.svg) no-repeat right top/200% 383px;
     padding: 80px 0;
   }
   body.page-id-24 #page-contact .body .wrap,
-body.page-id-26 #page-contact .body .wrap,
-body.page-id-28 #page-contact .body .wrap {
+  body.page-id-26 #page-contact .body .wrap,
+  body.page-id-28 #page-contact .body .wrap {
     margin: 0 20px;
   }
   body.page-id-24 #page-contact .body .wrap h3,
-body.page-id-26 #page-contact .body .wrap h3,
-body.page-id-28 #page-contact .body .wrap h3 {
+  body.page-id-26 #page-contact .body .wrap h3,
+  body.page-id-28 #page-contact .body .wrap h3 {
     font-size: 16px;
     padding: 0 0 20px;
     border-bottom: solid #000 2px;
     margin: 0 0 20px;
   }
   body.page-id-24 #page-contact .body .wrap p,
-body.page-id-26 #page-contact .body .wrap p,
-body.page-id-28 #page-contact .body .wrap p {
+  body.page-id-26 #page-contact .body .wrap p,
+  body.page-id-28 #page-contact .body .wrap p {
     font-size: 13px;
     margin: 0 0 20px;
   }
   body.page-id-24 #page-contact .body .contact-form small,
-body.page-id-26 #page-contact .body .contact-form small,
-body.page-id-28 #page-contact .body .contact-form small {
+  body.page-id-26 #page-contact .body .contact-form small,
+  body.page-id-28 #page-contact .body .contact-form small {
     font-size: 10px;
   }
   body.page-id-24 #page-contact .body .contact-form table,
-body.page-id-26 #page-contact .body .contact-form table,
-body.page-id-28 #page-contact .body .contact-form table {
+  body.page-id-26 #page-contact .body .contact-form table,
+  body.page-id-28 #page-contact .body .contact-form table {
     display: block;
     margin: 0 0 20px;
   }
   body.page-id-24 #page-contact .body .contact-form table tr,
-body.page-id-24 #page-contact .body .contact-form table tbody,
-body.page-id-26 #page-contact .body .contact-form table tr,
-body.page-id-26 #page-contact .body .contact-form table tbody,
-body.page-id-28 #page-contact .body .contact-form table tr,
-body.page-id-28 #page-contact .body .contact-form table tbody {
+  body.page-id-24 #page-contact .body .contact-form table tbody,
+  body.page-id-26 #page-contact .body .contact-form table tr,
+  body.page-id-26 #page-contact .body .contact-form table tbody,
+  body.page-id-28 #page-contact .body .contact-form table tr,
+  body.page-id-28 #page-contact .body .contact-form table tbody {
     display: block;
   }
   body.page-id-24 #page-contact .body .contact-form table th,
-body.page-id-26 #page-contact .body .contact-form table th,
-body.page-id-28 #page-contact .body .contact-form table th {
+  body.page-id-26 #page-contact .body .contact-form table th,
+  body.page-id-28 #page-contact .body .contact-form table th {
     display: block;
     padding: 0 0 12px;
     width: auto;
     font-size: 13px;
   }
   body.page-id-24 #page-contact .body .contact-form table td,
-body.page-id-26 #page-contact .body .contact-form table td,
-body.page-id-28 #page-contact .body .contact-form table td {
+  body.page-id-26 #page-contact .body .contact-form table td,
+  body.page-id-28 #page-contact .body .contact-form table td {
     display: block;
     width: auto;
     padding: 0 0 20px;
     font-size: 13px;
   }
   body.page-id-24 #page-contact .body .contact-form p,
-body.page-id-26 #page-contact .body .contact-form p,
-body.page-id-28 #page-contact .body .contact-form p {
+  body.page-id-26 #page-contact .body .contact-form p,
+  body.page-id-28 #page-contact .body .contact-form p {
     font-size: 13px;
     margin: 0 0 20px;
   }
   body.page-id-24 #page-contact .body .contact-form .btn,
-body.page-id-26 #page-contact .body .contact-form .btn,
-body.page-id-28 #page-contact .body .contact-form .btn {
+  body.page-id-26 #page-contact .body .contact-form .btn,
+  body.page-id-28 #page-contact .body .contact-form .btn {
     text-align: center;
   }
   body.page-id-24 #page-contact .body .contact-form .btn .btn-wrap,
-body.page-id-26 #page-contact .body .contact-form .btn .btn-wrap,
-body.page-id-28 #page-contact .body .contact-form .btn .btn-wrap {
+  body.page-id-26 #page-contact .body .contact-form .btn .btn-wrap,
+  body.page-id-28 #page-contact .body .contact-form .btn .btn-wrap {
     flex-wrap: wrap;
     gap: 20px;
   }
   body.page-id-24 #page-contact .body .contact-form .btn .btn-wrap span,
-body.page-id-26 #page-contact .body .contact-form .btn .btn-wrap span,
-body.page-id-28 #page-contact .body .contact-form .btn .btn-wrap span {
+  body.page-id-26 #page-contact .body .contact-form .btn .btn-wrap span,
+  body.page-id-28 #page-contact .body .contact-form .btn .btn-wrap span {
     width: 200px;
     height: 48px;
     font-size: 13px;
@@ -4978,53 +4949,53 @@ body.page-id-28 #page-contact .body .contact-form .btn .btn-wrap span {
     box-shadow: 4px 4px 0px #FF595B;
   }
   body.page-id-24 #page-contact .body .contact-form .btn .btn-wrap span:hover,
-body.page-id-26 #page-contact .body .contact-form .btn .btn-wrap span:hover,
-body.page-id-28 #page-contact .body .contact-form .btn .btn-wrap span:hover {
+  body.page-id-26 #page-contact .body .contact-form .btn .btn-wrap span:hover,
+  body.page-id-28 #page-contact .body .contact-form .btn .btn-wrap span:hover {
     transform: translate3d(4px, 4px, 0);
     box-shadow: 0 0 0px #FF595B;
   }
   body.page-id-24 #page-contact .body .contact-form .btn .btn-wrap span:after,
-body.page-id-26 #page-contact .body .contact-form .btn .btn-wrap span:after,
-body.page-id-28 #page-contact .body .contact-form .btn .btn-wrap span:after {
+  body.page-id-26 #page-contact .body .contact-form .btn .btn-wrap span:after,
+  body.page-id-28 #page-contact .body .contact-form .btn .btn-wrap span:after {
     margin: -6px 0 0;
     width: 7px;
     height: 12px;
   }
   body.page-id-24 #page-contact .body .contact-form .mw_wp_form_input .btn .btn-wrap span.back,
-body.page-id-26 #page-contact .body .contact-form .mw_wp_form_input .btn .btn-wrap span.back,
-body.page-id-28 #page-contact .body .contact-form .mw_wp_form_input .btn .btn-wrap span.back {
+  body.page-id-26 #page-contact .body .contact-form .mw_wp_form_input .btn .btn-wrap span.back,
+  body.page-id-28 #page-contact .body .contact-form .mw_wp_form_input .btn .btn-wrap span.back {
     display: none;
   }
   body.page-id-24 #page-contact .body .contact-form .mw_wp_form_confirm p,
-body.page-id-26 #page-contact .body .contact-form .mw_wp_form_confirm p,
-body.page-id-28 #page-contact .body .contact-form .mw_wp_form_confirm p {
+  body.page-id-26 #page-contact .body .contact-form .mw_wp_form_confirm p,
+  body.page-id-28 #page-contact .body .contact-form .mw_wp_form_confirm p {
     display: none;
   }
   body.page-id-24 #page-contact .body .contact-complete h4,
-body.page-id-26 #page-contact .body .contact-complete h4,
-body.page-id-28 #page-contact .body .contact-complete h4 {
+  body.page-id-26 #page-contact .body .contact-complete h4,
+  body.page-id-28 #page-contact .body .contact-complete h4 {
     font-size: 16px;
   }
   body.page-id-24 #page-contact .body .contact-complete p,
-body.page-id-26 #page-contact .body .contact-complete p,
-body.page-id-28 #page-contact .body .contact-complete p {
+  body.page-id-26 #page-contact .body .contact-complete p,
+  body.page-id-28 #page-contact .body .contact-complete p {
     font-size: 13px;
   }
   body.page-id-24 #page-contact .body .contact-complete .btn,
-body.page-id-26 #page-contact .body .contact-complete .btn,
-body.page-id-28 #page-contact .body .contact-complete .btn {
+  body.page-id-26 #page-contact .body .contact-complete .btn,
+  body.page-id-28 #page-contact .body .contact-complete .btn {
     padding: 20px 0 0;
   }
   body.page-id-24 #page-contact .body .contact-complete .mw_wp_form_send_error,
-body.page-id-26 #page-contact .body .contact-complete .mw_wp_form_send_error,
-body.page-id-28 #page-contact .body .contact-complete .mw_wp_form_send_error {
+  body.page-id-26 #page-contact .body .contact-complete .mw_wp_form_send_error,
+  body.page-id-28 #page-contact .body .contact-complete .mw_wp_form_send_error {
     padding: 20px 0 0;
   }
 }
 @media screen and (max-width: 480px) {
   body.page-id-24 footer,
-body.page-id-26 footer,
-body.page-id-28 footer {
+  body.page-id-26 footer,
+  body.page-id-28 footer {
     background: url(./assets/images/rect_b01.svg) no-repeat right bottom/400% 100%, url(./assets/images/rect-p05.svg) no-repeat left top/350% 100%;
   }
 }
@@ -5122,4 +5093,38 @@ body.page-id-173 #index-news .body {
   height: 100%;
   vertical-align: top;
   transform: translateY(-1px);
+}
+
+.notFound-content {
+  padding-top: 180px;
+  padding-bottom: 70px;
+}
+
+.notFound-title {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.notFound-btn {
+  margin: 66px auto 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media screen and (max-width: 480px) {
+  .notFound-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .notFound-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .notFound-btn {
+    margin: 33px auto 0 auto;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }/*# sourceMappingURL=customize-style.css.map */
