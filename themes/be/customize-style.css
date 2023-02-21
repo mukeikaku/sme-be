@@ -1933,10 +1933,7 @@ footer .copyright small {
 .post .content p {
   font-size: 16px;
   line-height: 2;
-  margin: 0 0 40px;
-}
-.post .content p + p small {
-  margin: -40px 0 0;
+  margin: 0 0 2em;
 }
 .post .content h2 {
   padding: 14px 20px;

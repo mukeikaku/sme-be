@@ -2648,12 +2648,12 @@ footer{
     p{
       font-size:$m;
       line-height:2;
-      margin:0 0 40px;
-      & + p{
-        small{
-          margin:-40px 0 0;
-        }
-      }
+      margin:0 0 2em;
+      // & + p{
+      //   small{
+      //     margin:-40px 0 0;
+      //   }
+      // }
     }
     h2{
       padding:14px 20px;
