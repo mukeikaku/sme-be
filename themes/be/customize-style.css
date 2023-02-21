@@ -479,22 +479,22 @@ header ul li:nth-child(2).current a {
   color: #FF595B;
 }
 header ul li:nth-child(3) a:hover, header ul li:nth-child(3) a.current {
-  color: #86D1E6;
+  color: #F5ABB8;
 }
 header ul li:nth-child(3).current a {
-  color: #86D1E6;
+  color: #F5ABB8;
 }
 header ul li:nth-child(4) a:hover, header ul li:nth-child(4) a.current {
-  color: #F5ABB8;
+  color: #FED16C;
 }
 header ul li:nth-child(4).current a {
-  color: #F5ABB8;
+  color: #FED16C;
 }
 header ul li:nth-child(5) a:hover, header ul li:nth-child(5) a.current {
-  color: #FED16C;
+  color: #FF595B;
 }
 header ul li:nth-child(5).current a {
-  color: #FED16C;
+  color: #FF595B;
 }
 header ul li:nth-child(6) a:hover, header ul li:nth-child(6) a.current {
   color: #FF595B;

@@ -695,12 +695,12 @@ header {
         a{
           &:hover,
           &.current{
-            color:$color03;
+            color:$color04;
           }
         }
         &.current{
           a{
-            color:$color03;
+            color:$color04;
           }
         }
       }
@@ -708,12 +708,12 @@ header {
         a{
           &:hover,
           &.current{
-            color:$color04;
+            color:$color01;
           }
         }
         &.current{
           a{
-            color:$color04;
+            color:$color01;
           }
         }
       }
@@ -721,12 +721,12 @@ header {
         a{
           &:hover,
           &.current{
-            color:$color01;
+            color:$color02;
           }
         }
         &.current{
           a{
-            color:$color01;
+            color:$color02;
           }
         }
       }
