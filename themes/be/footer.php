@@ -124,6 +124,21 @@
       duration: 1500,
       once: true
     });*/
+	<?php
+    if (is_page('contact') || is_page('confirm')) {
+        echo <<<EOD
+		const form = document.querySelector('form');
+			form.addEventListener('submit', onSubmit);
+			function onSubmit(e) {
+					grecaptcha.execute('6LeXyBAkAAAAAKUuEWRUCEvlSFgEWCKhFNqyWcW7', {action: 'submit'}).then(function(token) {
+						var recaptchaToken = document.querySelector('input[name="recaptchaToken"]');
+						recaptchaToken.value = token;
+					});
+			}
+EOD;
+    }
+
+							?>
 	const emptyP = document.querySelectorAll('.post .content > p')
 	if (emptyP) {
 		for (let i = 0; i < emptyP.length; i++) {

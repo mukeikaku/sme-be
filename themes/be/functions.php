@@ -349,3 +349,8 @@ class RedirectTo404
 }
 
 RedirectTo404::init();
+
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+    var_dump($_POST);
+    die();
+}
