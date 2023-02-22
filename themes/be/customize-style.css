@@ -5159,5 +5159,5 @@ body.page-id-173 #index-news .body {
 }
 
 .page-id-24 .grecaptcha-badge {
-  display: none;
+  display: block !important;
 }/*# sourceMappingURL=customize-style.css.map */
