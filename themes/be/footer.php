@@ -148,14 +148,6 @@ EOD;
 							    }
 
 							?>
-	const emptyP = document.querySelectorAll('.post .content > p')
-	if (emptyP) {
-		for (let i = 0; i < emptyP.length; i++) {
-			if (emptyP[i].textContent.match(/^\s*$/)) {
-				emptyP[i].setAttribute('style', 'display:none')
-			}
-		}
-	}
 </script>
 </body>
 
