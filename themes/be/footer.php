@@ -117,9 +117,13 @@
 </div><!-- #wrapper -->
 
 <?php wp_footer(); ?>
+<?php
+
+							if (is_page('contact') || is_page('confirm')) : ?>
 <script
 	src="https://www.google.com/recaptcha/api.js?render=<?= RECAPTCHA_KEY ?>">
 </script>
+<?php endif ?>
 
 <script>
 	/*AOS.init({
@@ -128,9 +132,9 @@
       once: true
     });*/
 	<?php
-    if (is_page('contact') || is_page('confirm')) {
-        $key = RECAPTCHA_KEY;
-        echo <<<EOD
+							    if (is_page('contact') || is_page('confirm')) {
+							        $key = RECAPTCHA_KEY;
+							        echo <<<EOD
 		const form = document.querySelector('form');
 			window.addEventListener('load', onSubmit);
 			function onSubmit(e) {
@@ -141,7 +145,7 @@
 					});
 			}
 EOD;
-    }
+							    }
 
 							?>
 	const emptyP = document.querySelectorAll('.post .content > p')
