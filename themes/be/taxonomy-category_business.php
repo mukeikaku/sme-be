@@ -30,7 +30,8 @@ get_header();
 				</div>
 
 				<div class="business-list">
-					<h3>事業実績</h3>
+					<h3><?= ($term_id == 22) ? 'アーティスト一覧' : '事業実績' ?>
+					</h3>
 					<ul>
 						<?php
             global $wp_query;
@@ -46,8 +47,12 @@ $query = new WP_Query($args);
 ?>
 						<?php if ($query->have_posts()) : ?>
 						<?php while ($query->have_posts()) : $query->the_post(); ?>
+						<?php $url = get_field('url') ?>
 						<li>
-							<a href="<?php the_permalink(); ?>">
+							<a href="<?= (!empty($url)) ? $url : get_permalink(); ?>"
+								<?php if (!empty($url)) {
+								    echo 'target="_blank" rel="noopener noreferrer"';
+								}?>>
 								<?php if (has_post_thumbnail()) : ?>
 								<figure>
 									<?php the_post_thumbnail("full"); ?>
