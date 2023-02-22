@@ -134,7 +134,8 @@ define('ACCESS_CONTROL_ALLOW_ORIGIN', $_ENV['ACCESS_CONTROL_ALLOW_ORIGIN']);
 define('NEXT_PUBLIC_URL', $_ENV['NEXT_PUBLIC_URL']);
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+define('RECAPTCHA_KEY', 'hoge');
+define('RECAPTCHA_SECRET', 'fuga');
 
 /* That's all, stop editing! Happy publishing. */
 

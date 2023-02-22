@@ -353,7 +353,7 @@ RedirectTo404::init();
 add_action('after_setup_theme', function () {
     if($_SERVER['REQUEST_METHOD'] == 'POST' && !is_admin()) {
         if(isset($_POST["recaptchaToken"]) && !empty($_POST["recaptchaToken"])) {
-            $res_json = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LeXyBAkAAAAABQsLTbwsw_iF_Vl64u7bssdB6Sd&response=" . $_POST["recaptchaToken"]);
+            $res_json = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET."&response=" . $_POST["recaptchaToken"]);
             $res = json_decode($res_json);
             if($res->success) {
                 if($res->score > 0.5) {
