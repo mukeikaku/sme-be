@@ -351,6 +351,20 @@ class RedirectTo404
 RedirectTo404::init();
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    var_dump($_POST);
-    die();
+    if(isset($_POST["recaptchaToken"]) && !empty($_POST["recaptchaToken"])) {
+        var_dump($_POST['recaptchaToken']);
+        $res_json = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LeXyBAkAAAAABQsLTbwsw_iF_Vl64u7bssdB6Sd&response=" . $_POST["recaptchaToken"]);
+        $res = json_decode($res_json);
+        var_dump($res);
+        die();
+        if($res->success) {	// 認証成功
+            if($res->score > 0.5) {
+                // 0.5点より上は正常処理
+            } else {
+                // スパム判定
+            }
+        } else {
+            // 認証エラー
+        }
+    }
 }

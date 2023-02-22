@@ -117,6 +117,7 @@
 </div><!-- #wrapper -->
 
 <?php wp_footer(); ?>
+<script src="https://www.google.com/recaptcha/api.js?render=6LeXyBAkAAAAAKUuEWRUCEvlSFgEWCKhFNqyWcW7"></script>
 
 <script>
 	/*AOS.init({
@@ -128,8 +129,9 @@
     if (is_page('contact') || is_page('confirm')) {
         echo <<<EOD
 		const form = document.querySelector('form');
-			form.addEventListener('submit', onSubmit);
+			window.addEventListener('load', onSubmit);
 			function onSubmit(e) {
+				e.preventDefault();
 					grecaptcha.execute('6LeXyBAkAAAAAKUuEWRUCEvlSFgEWCKhFNqyWcW7', {action: 'submit'}).then(function(token) {
 						var recaptchaToken = document.querySelector('input[name="recaptchaToken"]');
 						recaptchaToken.value = token;

@@ -21,7 +21,6 @@
 	<link rel="apple-touch-icon" sizes="180x180"
 		href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/apple-icon-180x180.png">
 	<?php wp_head(); ?>
-	<script src="https://www.google.com/recaptcha/api.js?render=6LeXyBAkAAAAAKUuEWRUCEvlSFgEWCKhFNqyWcW7"></script>
 
 	<!-- Google Tag Manager -->
 	<script>
