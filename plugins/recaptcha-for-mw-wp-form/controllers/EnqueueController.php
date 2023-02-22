@@ -15,14 +15,14 @@ class EnqueueController
     {
         global $post;
         $option = get_option(Config::OPTION);
-        $secret_key = esc_html($option['secret_key']);
-        if (!empty($post) && has_shortcode($post->post_content, 'mwform_formkey') && !empty($secret_key)) {
+        $site_key = esc_html($option['site_key']);
+        if (!empty($post) && has_shortcode($post->post_content, 'mwform_formkey') && !empty($site_key)) {
             wp_enqueue_script('jquery');
-            wp_enqueue_script("recaptcha-script", 'https://www.google.com/recaptcha/api.js?render=' . $secret_key, array('jquery'), array(), true);
+            wp_enqueue_script("recaptcha-script", 'https://www.google.com/recaptcha/api.js?render=' . $site_key, array('jquery'), array(), true);
 
             $data = <<< EOL
 grecaptcha.ready(function() {
-    grecaptcha.execute('$secret_key', {
+    grecaptcha.execute('$site_key', {
             action: 'homepage'
         }).then(function(token) {
             var recaptchaResponse = jQuery('input[name="recaptcha-v3"]');
