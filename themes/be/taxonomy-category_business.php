@@ -70,10 +70,6 @@ $query = new WP_Query($args);
 						<?php endwhile; ?>
 					</ul>
 				</div>
-				<!--div class="pagenavi">
-          <?php //if(function_exists('wp_pagenavi')) { wp_pagenavi(array('query'=>$query)); }
-          ?>
-				</div-->
 				<?php endif;
 wp_reset_postdata(); ?>
 			</div>
