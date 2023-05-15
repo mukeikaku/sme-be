@@ -6,7 +6,7 @@
     RewriteBase /
     RewriteRule ^wp-signup\.php 404-siteguard [L]
     RewriteRule ^wp-activate\.php 404-siteguard [L]
-    RewriteRule ^be_secret_login_url_suXS2Y1lvcl(.*)$ wp-login.php$1 [L]
+    RewriteRule ^login_51332(.*)$ wp-login.php$1 [L]
 </IfModule>
 #==== SITEGUARD_RENAME_LOGIN_SETTINGS_END
 #SITEGUARD_PLUGIN_SETTINGS_END

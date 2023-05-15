@@ -147,9 +147,9 @@
 	<?php endif; ?>
 	<!-- OptanonConsentNoticeStart -->
 	<script type="text/javascript"
-		src="https://cdn-apac.onetrust.com/consent/e0ef3b34-38e3-44c3-ad07-fb6ff7eca398-test/OtAutoBlock.js"></script>
+		src="https://cdn-apac.onetrust.com/consent/e0ef3b34-38e3-44c3-ad07-fb6ff7eca398/OtAutoBlock.js"></script>
 	<script src="https://cdn-apac.onetrust.com/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8"
-		data-domain-script="e0ef3b34-38e3-44c3-ad07-fb6ff7eca398-test"></script>
+		data-domain-script="e0ef3b34-38e3-44c3-ad07-fb6ff7eca398"></script>
 	<script type="text/javascript">
 		function OptanonWrapper() {}
 	</script>
