@@ -319,10 +319,10 @@ class RedirectTo404
     {
         global $wp_query;
         switch (true) {
-                #case is_post_type_archive('post_type_name'):
-                #case is_tax('tax_name'):
-                #case is_category():
-                #case is_tag():
+            #case is_post_type_archive('post_type_name'):
+            #case is_tax('tax_name'):
+            #case is_category():
+            #case is_tag():
             case is_search(): // 検索結果ページ
             case is_date(): // 日付アーカイブ
             case is_feed(): // フィード
@@ -368,3 +368,30 @@ add_action('after_setup_theme', function () {
         }
     }
 });
+
+foreach (glob(STYLESHEETPATH . '/function_classes/*.php') as $file) {
+    require_once $file;
+}
+
+class ClassLoader
+{
+    private $dir;
+    public function __construct($dir)
+    {
+        $this->dir = $dir;
+    }
+    public function register()
+    {
+        spl_autoload_register([$this, 'loadClass']);
+    }
+    public function loadClass($class)
+    {
+        $file = $this->dir . '/' . str_replace('Theme\\', '', $class) . '.class.php';
+        if (is_readable($file)) {
+            require_once $file;
+            return true;
+        }
+    }
+}
+
+Theme\CloudFrontCacheClear::init();
