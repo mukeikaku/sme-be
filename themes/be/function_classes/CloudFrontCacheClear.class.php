@@ -16,7 +16,7 @@ class CloudFrontCacheClear
     private function __construct()
     {
         add_filter('init', [$this, 'init_callback']);
-        add_action('transition_post_status', [$this, 'clear_cloudfront_cache'], 10);
+        add_action('transition_post_status', [$this, 'on_transition'], 10, 3);
     }
 
     public static function init(): void
@@ -34,6 +34,28 @@ class CloudFrontCacheClear
         // キャッシュクリアダッシュボードウィジェットを追加
         add_action('wp_dashboard_setup', [$this, 'add_widget']);
         // }
+    }
+
+    public function on_transition($new_status, $old_status, $post)
+    {
+        if (!$this->should_invalidate($new_status, $old_status)) {
+            return;
+        }
+        $this->clear_cloudfront_cache();
+    }
+
+    public function should_invalidate($new_status, $old_status)
+    {
+        if ('publish' === $new_status) {
+            // if publish or update posts.
+            $result = true;
+        } elseif ('publish' === $old_status && $new_status !== $old_status) {
+            // if un-published post.
+            $result = true;
+        } else {
+            $result = false;
+        }
+        return $result;
     }
 
     public function generateRandomString($length = 10)
