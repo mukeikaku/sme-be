@@ -16,6 +16,7 @@ class CloudFrontCacheClear
     private function __construct()
     {
         add_filter('init', [$this, 'init_callback']);
+        add_action('transition_post_status', [$this, 'clear_cloudfront_cache'], 10);
     }
 
     public static function init(): void
