@@ -1,6 +1,6 @@
 <?php
 
-define('NO_IMAGE', esc_url(get_template_directory_uri()).'/assets/images/noimage.png');
+define('NO_IMAGE', esc_url(get_template_directory_uri()) . '/assets/images/noimage.png');
 
 /**
  * Twenty Twenty-Two functions and definitions
@@ -126,7 +126,7 @@ remove_action('template_redirect', 'wp_redirect_admin_locations', 1000);
 
 function svg($name)
 {
-    $content = file_get_contents(TEMPLATEPATH.'/assets/images/'.$name.'.svg');
+    $content = file_get_contents(TEMPLATEPATH . '/assets/images/' . $name . '.svg');
     return $content;
 }
 
@@ -351,12 +351,12 @@ class RedirectTo404
 RedirectTo404::init();
 
 add_action('after_setup_theme', function () {
-    if($_SERVER['REQUEST_METHOD'] == 'POST' && !is_admin()) {
-        if(isset($_POST["recaptchaToken"]) && !empty($_POST["recaptchaToken"])) {
-            $res_json = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET."&response=" . $_POST["recaptchaToken"]);
+    if ($_SERVER['REQUEST_METHOD'] == 'POST' && !is_admin()) {
+        if (isset($_POST["recaptchaToken"]) && !empty($_POST["recaptchaToken"])) {
+            $res_json = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . RECAPTCHA_SECRET . "&response=" . $_POST["recaptchaToken"]);
             $res = json_decode($res_json);
-            if($res->success) {
-                if($res->score > 0.5) {
+            if ($res->success) {
+                if ($res->score > 0.5) {
                 } else {
                     wp_die('ロボットによる送信とみなされました');
                     exit;
