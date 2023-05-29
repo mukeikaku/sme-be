@@ -86,7 +86,7 @@ class CloudFrontCacheClear
                 'InvalidationBatch' => [ // REQUIRED
                     'CallerReference' => $this->generateRandomString(16), // REQUIRED
                     'Paths' => [ // REQUIRED
-                        'Items' => ['/'], // items or paths to invalidate
+                        'Items' => ['/*'], // items or paths to invalidate
                         'Quantity' => 1 // REQUIRED (must be equal to the number of 'Items' in the previus line)
                     ]
                 ]
